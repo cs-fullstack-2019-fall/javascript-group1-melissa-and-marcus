@@ -8,6 +8,7 @@
         "'4' for new Spanish translations and '5' or 'q' to quit.");
     while (userInput !== '5' && userInput !=='q') {
 
+        // these arrays need to be defined globally(OUTSIDE of a function) to be updated
         let english2 = ["what", "who", "when", "where", "why", "which", "how"];
         let spanish2 = ["Que", "Quien", "Cuando", "Donde", " Por Que", "Cual", "Como"];
 
@@ -22,7 +23,7 @@
             for (let i = 0; i < english2.length; i++) {
                 console.log("spanish word: " + spanish2[i] + " -translated to english word: " + english2[i]);
             }
-        } else if (userInput === '3') {
+        } else if (userInput === '3') { 
             let userInput3 = prompt("enter a english word");
             let userInput2 = prompt("enter translation of english word to spanish");
 
