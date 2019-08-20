@@ -16,3 +16,4 @@ To work as a group, have one person clone the repo first, include the .gitignore
 
 ### Challenge
 Create a sixth option that will search for an English word and give you the Spanish translation. It should work by entering the entire word, not a piece of the word (that will make it more difficult).
+ 
