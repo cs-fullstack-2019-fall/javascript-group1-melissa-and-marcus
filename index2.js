@@ -28,13 +28,17 @@
 
             english2.push(userInput3);
             spanish2.push(userInput2);
-            
+            console.log(english2);
+            console.log(spanish2);
         } else if (userInput === '4') {
             userInput2 = prompt("enter a spanish word");
             userInput3 = prompt("enter translation of spanish word to english");
 
             spanish2.push(userInput2);
             english2.push(userInput3);
+
+            console.log(spanish2);
+            console.log(english2);
         }
         userInput = prompt("Please press '1' for all English to Spanish translations, \n" +
             "press '2' for all Spanish to English translations, press '3' for new English translations, \n" +
